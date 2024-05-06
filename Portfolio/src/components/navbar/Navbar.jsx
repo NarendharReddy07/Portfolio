@@ -4,7 +4,7 @@ import { logo } from '../../assets'
 import { navLinksdata } from '../../constants'
 function Navbar() {
   return (
-    <div  className='w-full  h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-gray-600 '>
+    <div  className='w-full  h-24 sticky   top-0 z-50 bg-bodyColor  mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-gray-600 '>
       <div>
         <img  src={logo} alt="icon"/>
       </div>
